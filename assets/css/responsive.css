@@ -1,0 +1,453 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+@media only screen and (max-width: 3500px) and (min-width: 1401px) {
+    .regular_outgoings {
+        text-align: left;
+        margin-left: 22%;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+
+    .custom_btn button {
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .bx-menu {
+        font-size: 36px;
+    }
+
+    .hero_left {
+        text-align: center;
+    }
+
+    .hero_right {
+        display: none;
+    }
+
+    .borrow_details_item {
+        margin-bottom: 40px;
+    }
+
+    .pc_testomonila {
+        display: none;
+    }
+
+    .responsive_testomonila {
+        display: block;
+    }
+
+    .service_item {
+        width: 100%;
+        margin: 1.5%;
+    }
+
+    .faq_img {
+        text-align: center;
+    }
+
+    .main_borrow_select_area {
+        margin-top: -190px;
+    }
+
+    .main_footer_area {
+        background: url(../images/footer-bg-01.png)no-repeat scroll 0 0 / 100% 100%;
+        padding: 120px 0px 50px;
+        text-align: center;
+    }
+
+    .footer_link ul {
+        display: block !important;
+    }
+
+    .social_media ul {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .footer_contact {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .dis {
+        display: none;
+    }
+
+    .footer_logo img {
+        padding-top: 25px;
+    }
+
+    .slider {
+        
+    }
+
+    .borrow_details_item {
+        border-radius: 0px;
+    }
+
+    .select_name {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form_group input {
+        margin-bottom: 15px;
+    }
+
+    .select_name select {
+        margin-bottom: 15px;
+    }
+
+    .date_of_birth {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .date_of_birth select {
+        margin: 15px 0px;
+    }
+
+
+
+    .fist_step {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form_group input {
+        margin-bottom: 15px;
+    }
+
+    .exp_date_cvvv {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .pc_input {
+        display: none;
+    }
+
+    .card_img_cvv {
+        top: 20%;
+    }
+
+    .card_img {
+        top: 20%;
+    }
+
+    .billing_address {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .billing_left .form_group button {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .home_marital select {
+        margin-bottom: 15px;
+    }
+
+    .employer_info select {
+        margin-bottom: 15px;
+    }
+
+    .regular_outgoings {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .loan_offer_item {
+        -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
+
+    .pc_btn {
+        display: none;
+    }
+
+    .res_btn {
+        display: block;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+        .client_details_heading {
+	text-align: center;
+	width: 94%;
+}
+.accordion-button:not(.collapsed)::after {
+	width: 6%;
+}
+.accordion-button::after {
+	
+    width: 6%;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    height: 89.94px;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    position: relative
+}
+
+.range-control {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: calc(50% - 70%px/2);
+    top: 60px;
+   
+}
+
+}
+
+@media all and (max-width:767px) {
+    .main_footer_area {
+        background: url(../images/footer-bg-03.png)no-repeat scroll 0 0 / 100% 100%;
+        padding: 120px 0px 50px;
+        text-align: center;
+    }
+
+    .sub_menu ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .sub_menu ul li {
+        padding: 4px 10px;
+    }
+
+    .sub_menu_section {
+        padding-bottom: 40px;
+    }
+
+
+
+    .loan_offer_area {
+        width: 96%;
+        margin: 0 auto;
+        padding: 25px 50px;
+        margin-top: -220px;
+    }
+    .client_address_area {
+	
+	padding: 25px 70px;
+
+}
+    .client_details_heading {
+	text-align: center;
+	width: 93%;
+}
+.accordion-button:not(.collapsed)::after {
+	width: 7%;
+}
+.accordion-button::after {
+	
+    width: 7%;
+}
+    .slider {
+    width: 80%;
+   
+}
+
+.range-control {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: calc(50% - 70%px/2);
+    top: 60px;
+   
+}
+    .range-value {
+	position: absolute;
+	width: 85px;
+	height: 40px;
+	left: 40.5%;
+	top: -10px;
+        font-size: 22px;
+
+}
+    .range-value::after {
+	
+	left: 28px;
+	
+}
+}
+
+@media all and (max-width:577px) {
+    .hero_left h1 {
+        font-size: 32px;
+    }
+
+    .main_header_area {
+        padding: 20px 0px 20px;
+    }
+
+    .borrowing_item {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .borrow_select_area {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .service_item {
+        width: 97%;
+        margin: 1.5%;
+        margin-bottom: 25px;
+    }
+
+    .borrow_details_item {
+        padding: 0px 30px 45px;
+    }
+
+    .main_form_area {
+        width: 96%;
+        margin: 0 auto;
+        padding: 25px 20px;
+        margin-top: -220px;
+    }
+
+    .client_address_area {
+        padding: 25px 65px;
+    }
+
+    .loan_offer_area {
+        padding: 25px 0px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .hero_left h1 {
+        font-size: 31px;
+    }
+
+    .hero_left p {
+        font-size: 17px;
+    }
+
+    .main_footer_area {
+        background: url(../images/footer-bg-04.png)no-repeat scroll 0 0 / 100% 100%;
+        padding: 80px 0px 50px;
+    }
+
+    .client_address_area {
+        padding: 25px 25px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .hero_left p {
+        font-size: 16px;
+    }
+
+    .client_address_area {
+        padding: 25px 3px;
+    }
+
+}
+
+@media all and (max-width:375px) {
+    .hero_left h1 {
+        font-size: 30px;
+    }
+
+    .hero_left p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {
+    .hero_left p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {
+    .hero_left h1 {
+        font-size: 28px;
+    }
+
+    .main_form_area {
+        padding: 25px 0px;
+    }
+        .slider {
+    width: 70%;
+   
+}
+
+.range-control {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: calc(50% - 60%px/2);
+    top: 60px;
+   
+}
+}
+
+@media all and (max-width:350px) {
+
+}

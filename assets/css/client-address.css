@@ -1,0 +1,519 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*-------------Clien Address------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+.main_client_address_area {}
+
+.client_address_area {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 25px 100px;
+    margin-top: -220px;
+}
+
+.loan_application_notice {}
+
+.loan_application_notice h1 {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #6935D3;
+    padding-bottom: 25px;
+}
+
+.loan_application_notice p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A434B;
+    padding-bottom: 25px;
+}
+
+.client_details_area {}
+
+.your_details {}
+
+.your_details h1 {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #DF1683;
+    padding-bottom: 25px;
+}
+
+.client_details_heading {
+    text-align: center;
+}
+
+.client_details_heading h1 {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #6935D3;
+
+}
+
+.client_details_heading {
+    text-align: center;
+    width: 97%;
+}
+
+.accordion-button:not(.collapsed)::after {
+    width: 3%;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/down-arrow-two.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    width: 3%;
+}
+
+.address_history {}
+
+.address_history p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A434B;
+    padding-bottom: 25px;
+}
+
+#post_code {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#post_code input {
+    width: 275px;
+}
+
+#search_btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    background: #6935D3;
+    border-radius: 8px;
+    height: 36px;
+    width: 80px !important;
+    margin-left: -93px;
+}
+
+.address_manually {}
+
+.address_manually label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6935D3;
+    text-align: left;
+    margin-left: -90px;
+    padding-bottom: 15px;
+}
+
+.address_manually textarea {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3A434B;
+    width: 275px;
+    height: 120px;
+    resize: none;
+    padding: 10px 15px;
+    background: #E7EEF5;
+    border-radius: 10px;
+    border: none;
+}
+
+.move_date {
+    text-align: center;
+}
+
+.move_date select {
+    border: none;
+    background: none;
+    background: #E7EEF5;
+    border-radius: 8px;
+    width: 275px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 16px 15px;
+    color: #3A434B;
+}
+
+.move_date select option {}
+
+.next_btn {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.next_btn input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background: #DF1683;
+    border-radius: 8px;
+    border: none;
+    width: 83px;
+    height: 50px;
+}
+
+.next_btn p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A434B;
+    margin: 15px 0px;
+}
+
+.accordion-button {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    color: #212529;
+    text-align: left;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 12px;
+}
+
+.accordion-item {
+    border: 2px solid #6935d3 !important;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.accordion-active {
+    border-color: #DF1683 !important;
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(12px);
+    border-top-right-radius: calc(12px);
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: calc(12px);
+    border-bottom-left-radius: calc(12px);
+}
+
+/* .accordion-item:not(:first-of-type) {
+    border-top: 2px solid #DF1683;
+
+} */
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/up-arrow-two.svg");
+    -webkit-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    transform: rotate(-0deg);
+}
+
+
+
+/*Personal Information*/
+.personal_information {}
+
+.form_group {}
+
+.home_marital {
+    margin-bottom: 15px;
+}
+
+.home_marital select {
+    width: 275px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #3A434B;
+}
+
+/*///End Personal Information*/
+/*income information*/
+.income_notice {}
+
+.income_notice p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A434B;
+    padding-bottom: 25px;
+}
+
+.employer_info {
+    margin-bottom: 25px;
+}
+
+.employer_info select {
+    width: 275px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #3A434B;
+}
+
+.employer_info input {
+    margin: 0;
+}
+
+.commitment_item {
+    margin-bottom: 25px;
+}
+
+.regular_outgoings {
+    text-align: left;
+    margin-left: 17%;
+}
+
+/*///End income information*/
+/*Bank information*/
+.bank_information {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bank_information h1 {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #6935D3;
+    padding-bottom: 25px;
+}
+
+.bank_information p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A434B;
+    padding-bottom: 25px;
+}
+
+.register_new_debit_card {}
+
+.register_new_debit_card h1 {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #6935D3;
+}
+
+.card_details {}
+
+.fist_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card_number {
+    position: relative;
+}
+
+.card_number input {
+    padding-left: 30px;
+}
+
+.card_img {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.card_img img {}
+
+.exp_date {
+    width: 130px;
+}
+
+.exp_date input {
+    width: 100%;
+}
+
+.cvv_number {
+    width: 130px;
+    position: relative;
+}
+
+.card_img_cvv {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.cvv_number input {
+    width: 100%;
+    padding-left: 35px;
+}
+
+.exp_date .date-picker {
+    width: 130px;
+}
+
+.exp_date .date-picker h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #3A434B;
+    margin-top: 24px;
+}
+
+.exp_date_cvvv {
+    display: none;
+}
+
+.billing_address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.billing_left {
+    margin-right: 3%;
+}
+
+.form_group {}
+
+.billing_left .form_group button {
+    border: none;
+    background: none;
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background: #6935D3;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.billing_left .form_group select {
+    width: 275px;
+}
+
+.get_quote .next_btn input {
+    width: 126px;
+}
+
+/*/// End Bank information*/

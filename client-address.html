@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="icon" href="#" type="image/gif" sizes="16x16">
+    <!--Boxicon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Google Font CDN Link-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/client-address.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--=================Start Header and Hero Section==============-->
+    <div class="header_hero_wapper custom_bg">
+        <!--============Start Header Area===========-->
+        <header class="main_header_area">
+            <div class="container">
+                <div class="row">
+                    <!--Menu Bar-->
+                    <nav class="">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.svg" alt="Squiddle Logo"></a>
+                        </div>
+                        <label for="btn" class="icon">
+                            <span class=""><i class='bx bx-menu'></i></span>
+                        </label>
+                        <input class="menu_input" type="checkbox" id="btn">
+                        <ul>
+                            <li><a href="#">Borrow</a></li>
+                            <li>
+                                <label for="btn-1" class="shows">About us<i class='bx bx-chevron-down'></i></label>
+                                <a href="#">About us <i class='bx bx-chevron-down'></i></a>
+                                <input class="menu_input" type="checkbox" id="btn-1">
+                                <ul>
+                                    <li><a href="#">About Squiddle</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="sign-in.html" class="sign_btn">Sign in</a></li>
+                        </ul>
+                    </nav>
+                    <!--/// End Menu Bar-->
+                </div>
+            </div>
+        </header>
+        <!--============End Header Area===========-->
+        <!--============Start Sub Menu Area===========-->
+        <section class="sub_menu_section">
+            <div class="container">
+                <div class="row">
+                    <!--Start sub menu-->
+                    <div class="sub_menu">
+                        <ul>
+                            <li><a href="create-account.html">Create Account</a></li>
+                            <li><i class='bx bx-chevron-right'></i></li>
+                            <li><a href="sign-in.html">Sign in</a></li>
+                            <li><i class='bx bx-chevron-right'></i></li>
+                            <li><a href="client-address.html" class="active">Your Details</a></li>
+                            <li><i class='bx bx-chevron-right'></i></li>
+                            <li><a href="reaview-loan-offer.html">Review Loan Offer</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End sub menu-->
+                </div>
+            </div>
+        </section>
+        <!--============End Sub Menu Area===========-->
+    </div>
+    <!--=================Start Header and Hero Section==============-->
+    <!--=================Start Main Body Section==============-->
+    <main class="main_body_area">
+        <!--===========Start Client Address Section============-->
+        <section class="main_client_address_area">
+            <div class="container">
+                <div class="row">
+                    <form action="" class="client_address_area">
+                        <!--Loan Application Notice-->
+                        <div class="loan_application_notice">
+                            <h1>Squiddle Loan Application</h1>
+                            <p>Make sure your details are accurate and complete, as we will use them to carry out a
+                                credit check. We may also use these details to contact you about your application.
+                                Squiddle is a secure website and any information you enter during your loan application
+                                will remain confidential. If you'd like to know more about how we collect and use your
+                                data, please read our Privacy Policy. Fraudulent and suspicious activities may be
+                                reported.</p>
+                        </div>
+                        <!--/// End Loan Application Notice-->
+                        <!--Client Details-->
+                        <div class="client_details_area">
+                            <div class="your_details">
+                                <h1>Your Details</h1>
+                            </div>
+                            <!--Client Address History-->
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item accordion-active" style="background: #fff;">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <!--heading-->
+                                            <div class="client_details_heading">
+                                                <h1>Address History</h1>
+                                            </div>
+                                            <!--/// End heading-->
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <!--Address-->
+                                            <div class="address_history">
+                                                <p>Please provide at least 4 months of recent UK address history.
+                                                    <br>Only include addresses where the length of occupancy was more
+                                                    than 30 days.
+                                                </p>
+                                            </div>
+                                            <div class="form_group" id="post_code">
+                                                <input type="text" placeholder="Post Code">
+                                                <input id="search_btn" type="submit" value="Search">
+                                            </div>
+                                            <div class="form_group address_manually">
+                                                <textarea name="" id="" cols="" rows="" placeholder="99 Street Name
+Address Line 2
+Town
+City
+Postcode"></textarea>
+                                            </div>
+                                            <div class="move_date">
+                                                <select name="" id="">
+                                                    <option value="">01 Jun 2022</option>
+                                                    <option value="">02 Jun 2022</option>
+                                                    <option value="">03 Jun 2022</option>
+                                                    <option value="">04 Jun 2022</option>
+                                                    <option value="">05 Jun 2022</option>
+                                                    <option value="">06 Jun 2022</option>
+                                                    <option value="">07 Jun 2022</option>
+                                                </select>
+                                            </div>
+                                            <!--Next Btn-->
+                                            <div class="next_btn">
+                                                <input type="submit" value="Next">
+                                            </div>
+                                            <!--/// End Next Btn-->
+                                            <!--/// End Address-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <!--heading-->
+                                            <div class="client_details_heading">
+                                                <h1>Personal Details</h1>
+                                            </div>
+                                            <!--/// End heading-->
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <!--Personal Information-->
+                                            <div class="personal_information">
+                                                <div class="form_group">
+                                                    <div class="home_marital">
+                                                        <!--Home-->
+                                                        <select name="" id="">
+                                                            <option value="">Home Status</option>
+                                                            <option value="">Bulding</option>
+                                                            <option value="">N/A</option>
+                                                        </select>
+                                                        <!--// End Home-->
+                                                        <!--Marital-->
+                                                        <select name="" id="">
+                                                            <option value="">Marital Status</option>
+                                                            <option value="">Married</option>
+                                                            <option value="">Unmarried</option>
+                                                        </select>
+                                                        <!--// End Marital-->
+                                                    </div>
+                                                    <div class="home_marital">
+                                                        <!--Home-->
+                                                        <select name="" id="">
+                                                            <option value="">Number of financial dependants</option>
+                                                            <option value="">Bulding</option>
+                                                            <option value="">N/A</option>
+                                                        </select>
+                                                        <!--// End Home-->
+                                                        <!--Marital-->
+                                                        <select name="" id="">
+                                                            <option value="">Loan Purpose</option>
+                                                            <option value="">Married</option>
+                                                            <option value="">Unmarried</option>
+                                                        </select>
+                                                        <!--// End Marital-->
+                                                    </div>
+                                                    <!--Next Btn-->
+                                                    <div class="next_btn">
+                                                        <p>A financial dependant is anyone that relies on you
+                                                            financially.</p>
+                                                        <input type="submit" value="Next">
+                                                    </div>
+                                                    <!--/// End Next Btn-->
+                                                </div>
+                                            </div>
+                                            <!--/// End Personal Information-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <!--heading-->
+                                            <div class="client_details_heading">
+                                                <h1>Income Details</h1>
+                                            </div>
+                                            <!--/// End heading-->
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <!--Income Details-->
+                                            <div class="personal_information">
+                                                <!--income notice-->
+                                                <div class="income_notice">
+                                                    <p>
+                                                        Please include all the regular income you receive, such as
+                                                        employment income, rental income, benefits, etc.</p>
+                                                </div>
+                                                <!--///End income notice-->
+                                                <div class="form_group">
+                                                    <div class="employer_info">
+                                                        <!--Employments Status-->
+                                                        <select name="" id="">
+                                                            <option value="">Employment status</option>
+                                                            <option value="">CEO</option>
+                                                            <option value="">Manager</option>
+                                                        </select>
+                                                        <!--// End Employments Status-->
+                                                        <!--Emoloyer's name-->
+                                                        <input type="text" placeholder="Employer’s name">
+                                                        <!--// End Emoloyer's name-->
+                                                    </div>
+                                                    <div class="employer_info">
+                                                        <!--Monthly Income-->
+                                                        <input type="number" placeholder="Net monthly income">
+                                                        <!--// End Monthly Income-->
+                                                        <!--Employments Status-->
+                                                        <select name="" id="">
+                                                            <option value="">Frequency of income</option>
+                                                            <option value="">CEO</option>
+                                                            <option value="">Manager</option>
+                                                        </select>
+                                                        <!--// End Employments Status-->
+                                                    </div>
+                                                    <!--Next Btn-->
+                                                    <div class="next_btn">
+                                                        <input type="submit" value="Next">
+                                                    </div>
+                                                    <!--/// End Next Btn-->
+                                                </div>
+                                            </div>
+                                            <!--/// End Income Details-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <!--heading-->
+                                        <div class="client_details_heading">
+                                            <h1>Commitments</h1>
+                                        </div>
+                                        <!--/// End heading-->
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <!--Commitments-->
+                                        <div class="personal_information">
+                                            <!--income notice-->
+                                            <div class="income_notice">
+                                                <p>Please include your monthly expenses</p>
+                                            </div>
+                                            <!--///End income notice-->
+                                            <div class="form_group">
+                                                <!--commitment details item-->
+                                                <div class="commitment_item">
+                                                    <input type="text" placeholder="Mortgage / Rent">
+                                                    <input type="text" placeholder="Transport">
+                                                </div>
+                                                <!--/// End commitment details item-->
+                                                <!--commitment details item-->
+                                                <div class="commitment_item">
+                                                    <input type="text" placeholder="Credit commitments">
+                                                    <input type="text" placeholder="Food and Drink">
+                                                </div>
+                                                <!--/// End commitment details item-->
+                                                <!--commitment details item-->
+                                                <div class="commitment_item">
+                                                    <input type="text" placeholder="Utility / Bills">
+                                                    <input type="text" placeholder="Dependants commitments">
+                                                </div>
+                                                <!--/// End commitment details item-->
+                                                <!--commitment details item-->
+                                                <div class="commitment_item regular_outgoings">
+                                                    <input type="text" placeholder="Other regular outgoings">
+                                                </div>
+                                                <!--/// End commitment details item-->
+                                                <!--Next Btn-->
+                                                <div class="next_btn">
+                                                    <input type="submit" value="Next">
+                                                </div>
+                                                <!--/// End Next Btn-->
+                                            </div>
+                                        </div>
+                                        <!--/// End Commitments-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--/// End Client Address History-->
+                        </div>
+                        <!--/// End Client Details-->
+                        <div class="custom_border"></div>
+                        <!--Bank Information-->
+                        <div class="bank_information">
+                            <h1>Bank Information</h1>
+                            <p>We need your payment card details and the account that is associated with the card to
+                                help us verify your identity and prevent fraud; and to collect payments from you under
+                                the credit agreement if your application is successful.
+                                We wil not take any payments from you at this stage. Please note that we only accept
+                                debit cards.
+                                Loan repayments are non-refundable.</p>
+                        </div>
+                        <!--/// End Bank Information-->
+                        <!--Register New Debit Card-->
+                        <div class="register_new_debit_card">
+                            <h1>Register a new debit card</h1>
+                            <!--Card Details-->
+                            <div class="card_details">
+                                <div class="form_group fist_step">
+                                    <!--Card Number-->
+                                    <div class="card_number">
+                                        <input type="number" placeholder="16 digit card number">
+                                        <div class="card_img">
+                                            <img src="assets/images/card-number.svg" alt="Card">
+                                        </div>
+                                    </div>
+                                    <!--/// End Card Number-->
+                                    <!--Exp Date-->
+                                    <div class="exp_date pc_input">
+                                        <div class="date-picker">
+                                            <h1 class="date"><img src="assets/images/Calendar.svg" alt="calendar"
+                                                    style="margin-right:5px;"> Select date</h1>
+                                            <input type="date" class="date-pick">
+                                        </div>
+                                    </div>
+                                    <!--/// End Exp Date-->
+                                    <!--CVV Number-->
+                                    <div class="cvv_number pc_input">
+                                        <input type="number" placeholder="CVV">
+                                        <div class="card_img_cvv">
+                                            <img src="assets/images/Card-Back.svg" alt="Card">
+                                        </div>
+                                    </div>
+                                    <!--/// End CVV Number-->
+                                    <!--**************Responsive*********-->
+                                    <div class="exp_date_cvvv">
+                                        <!--Exp Date-->
+                                        <div class="exp_date ">
+                                            <div class="date-picker">
+                                                <h1 class="date"><img src="assets/images/Calendar.svg" alt="calendar"
+                                                        style="margin-right:5px;"> Select date</h1>
+                                                <input type="date" class="date-pick">
+                                            </div>
+                                        </div>
+                                        <!--/// End Exp Date-->
+                                        <!--CVV Number-->
+                                        <div class="cvv_number">
+                                            <input type="number" placeholder="CVV">
+                                            <div class="card_img_cvv">
+                                                <img src="assets/images/Card-Back.svg" alt="Card">
+                                            </div>
+                                        </div>
+                                        <!--/// End CVV Number-->
+                                    </div>
+                                    <!--**************End Responsive*********-->
+                                </div>
+                                <!--Account Holder Name-->
+                                <div class="form_group">
+                                    <div class="account_holder_name">
+                                        <input type="text" placeholder="Account holder’s name">
+                                    </div>
+                                </div>
+                                <!--/// End Account Holder Name-->
+                                <!--Account Number & Sort Code-->
+                                <div class="form_group">
+                                    <div class="account_number_sort_code">
+                                        <input type="number" placeholder="Account Number">
+                                        <input type="text" placeholder="Sort Code">
+                                    </div>
+                                </div>
+                                <!--/// End Account Number & Sort Code-->
+                                <!--Billing Address-->
+                                <div class="billing_address">
+                                    <div class="billing_left">
+                                        <div class="form_group">
+                                            <button>Use current address</button>
+                                            <select name="" id="">
+                                                <option value="">Select a different address</option>
+                                                <option value="">item</option>
+                                                <option value="">item</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="billing_right">
+                                        <div class="form_group address_manually">
+                                            <textarea name="" id="" cols="" rows="" placeholder="99 Street Name
+Address Line 2
+Town
+City
+Postcode"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--///End Billing Address-->
+                            </div>
+                            <!--///End Card Details-->
+                            <!--Next Btn-->
+                            <div class="get_quote">
+                                <div class="next_btn">
+                                    <input type="submit" value="Get a quote">
+                                </div>
+                            </div>
+                            <!--/// End Next Btn-->
+                        </div>
+                        <!--/// End Register New Debit Card-->
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Client Address Section============-->
+    </main>
+    <!--=================End Main Body Section==============-->
+    <!--=================Start Footer Section==============-->
+    <footer class="main_footer_area">
+        <div class="container">
+            <div class="row">
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3">
+                    <img src="assets/images/Footer-logo.svg" alt="logo">
+                    <!--Social Media-->
+                    <div class="social_media">
+                        <ul>
+                            <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-blogger'></i></a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Social Media-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3">
+                    <!--Footer Contact-->
+                    <div class="footer_contact">
+                        <img src="assets/images/phone.svg" alt="phone">
+                        <h1>0800 368 9553</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>Download our App</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--App store-->
+                    <div class="app_store">
+                        <a href="#"><img src="assets/images/apple-store.svg" alt=""></a>
+                        <a href="#"><img src="assets/images/google-play.svg" alt=""></a>
+                    </div>
+                    <!--/// End App store-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3">
+                    <!--Footer Contact-->
+                    <div class="footer_contact">
+                        <img src="assets/images/mail.svg" alt="phone">
+                        <h1>hello@squiddle.com</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>About us</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--Footer Link-->
+                    <div class="footer_link">
+                        <ul>
+                            <li><a href="#">About Squiddle</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Footer Link-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3">
+                    <!--Footer Contact-->
+                    <div class="footer_contact" style="visibility: hidden;">
+                        <img src="assets/images/mail.svg" alt="phone">
+                        <h1>hello@squiddle.com</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>Support</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--Footer Link-->
+                    <div class="footer_link">
+                        <ul>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Cookies & Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Footer Link-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--Footer Paragraph-->
+                <div class="footer_paragraph">
+                    <p>Squiddle is the registered trademarks and trading names for Fund Ourselves Ltd (Company
+                        Registration Number: 09550128) with registered office address at WeWork, 10 York Road, London,
+                        SE1 7ND, United Kingdom. Fund Ourselves Ltd is authorised by the Financial Conduct Authority to
+                        provide regulated products and services (FCA Registration Number: 729238). Fund Ourselves Ltd is
+                        not covered by the Financial Service Compensation Scheme (FSCS). Investment through Fund
+                        Ourselves involves unsecured short-term lending to other individuals, so your investment can go
+                        down as well as up. Capital at risk. Loans are subject to status and affordability. Loan rates
+                        will depend on your credit profile. UK residents only. Terms and conditions apply. Applicants
+                        must be 18 or over.</p>
+                </div>
+                <!--/// End Footer Paragraph-->
+                <!--copyright section-->
+                <div class="copyright">
+                    <p>© Squiddle 2022. All rights reserved.</p>
+                </div>
+                <!--///End copyright section-->
+            </div>
+        </div>
+    </footer>
+    <!--=================End Footer Section==============-->
+    <!--Menu-->
+    <script src="assets/vendor/jquery.min.js"></script>
+    <script src="assets/js/controller.min.js"></script>
+    <script>
+        $('.accordion-item').click(function () {
+            if ($(this).hasClass("accordion-active")) {
+                $(this).toggleClass("accordion-active");
+            }
+            else {
+                $('.accordion-item').removeClass("accordion-active");
+                $(this).addClass("accordion-active");
+            }
+        });
+    </script>
+    <!--Boxicon CND -->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

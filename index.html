@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="#" type="image/gif" sizes="16x16">
+    <!--Boxicon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Google Font CDN Link-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--=================Start Header and Hero Section==============-->
+    <div class="header_hero_wapper">
+        <!--============Start Header Area===========-->
+        <header class="main_header_area">
+            <div class="container">
+                <div class="row">
+                    <!--Menu Bar-->
+                    <nav class="">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.svg" alt="Squiddle Logo"></a>
+                        </div>
+                        <label for="btn" class="icon">
+                            <span class=""><i class='bx bx-menu'></i></span>
+                        </label>
+                        <input class="menu_input" type="checkbox" id="btn">
+                        <ul>
+                            <li><a href="#">Borrow</a></li>
+                            <li>
+                                <label for="btn-1" class="shows">About us<i class='bx bx-chevron-down'></i></label>
+                                <a href="#">About us <i class='bx bx-chevron-down'></i></a>
+                                <input class="menu_input" type="checkbox" id="btn-1">
+                                <ul>
+                                    <li><a href="#">About Squiddle</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="sign-in.html" class="sign_btn">Sign in</a></li>
+                        </ul>
+                    </nav>
+                    <!--/// End Menu Bar-->
+                </div>
+            </div>
+        </header>
+        <!--============End Header Area===========-->
+        <!--============Start Heor Area===========-->
+        <section class="hero_section_start">
+            <div class="container">
+                <div class="row">
+                    <!--Start Hero Left-->
+                    <div class="hero_left col-lg-6 col-12">
+                        <!--Heading-->
+                        <h1>Apply for an <span>instant</span> short-term <span>affordable</span> loan up <span>to £1500</span> and pay it back over 6 months.</h1>
+                        <!--///End Heading-->
+                        <!--Paraprahp-->
+                        <p>
+                            We all need a little extra help sometimes.
+                            But don’t worry, we’re here when you need us. <br><br>
+                            Representative example 504.7% APR. When taking out a loan please be sure that you can afford to repay the loan.
+                        </p>
+                        <!--///End Paraprahp-->
+                    </div>
+                    <!--End Hero Left-->
+                    <!--Start Hero Right-->
+                    <div class="hero_right col-lg-6 col-12">
+                        <img src="assets/images/hero-hamble.svg" alt="img">
+                    </div>
+                    <!--End Hero Right-->
+                </div>
+            </div>
+        </section>
+        <!--============End Heor Area===========-->
+    </div>
+    <!--=================Start Header and Hero Section==============-->
+    <!--=================Start Main Body Section==============-->
+    <main class="main_body_area">
+        <!--===========Start Borrow Select Section============-->
+        <section class="main_borrow_select_area">
+            <div class="container">
+                <div class="row">
+                    <div class="borrow_select_area">
+                        <!--Borrow Heading-->
+                        <div class="borrow_heading">
+                            <h1>How much would you like to borrow?</h1>
+                            <p>New customers can borrow up to £800, existing customers up to £1500</p>
+                        </div>
+                        <!--/// End Borrow Heading-->
+                        <!--Select Ammount-->
+                        <div class="slider">
+                            <input type="range" name="price" value="750" class="range-control" min="100" max="1500" />
+                            <div class="range-value">&pound;<span class="price-range"></span></div>
+                        </div>
+                        <!--/// End Select Ammount-->
+                        <!--Select Heading-->
+                        <div class="borrow_heading">
+                            <h1>When would you like to start repaying?</h1>
+                            <p>Your first repayment must be within the next 32 days</p>
+                        </div>
+                        <!--/// End Select Heading-->
+                        <!--Select Date-->
+                        <div class="select_date">
+                            <form action="">
+                                <div class="date-picker">
+                                    <h1 class="date"><img src="assets/images/Calendar.svg" alt="calendar" style="margin-right:5px;"> Select date</h1>
+                                    <input type="date" class="date-pick">
+                                </div>
+                            </form>
+                        </div>
+                        <!--/// End Select Date-->
+                        <!--Borrowing itme area-->
+                        <div class="borrowing_item_area">
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>Borrowing</p>
+                                <h1 style="padding-bottom: 25px;">£900</h1>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>Interest</p>
+                                <h1>£500</h1>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>Total to repay</p>
+                                <h1 style="padding-bottom: 25px;">£1400</h1>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>Number of repayments</p>
+                                <h1>6</h1>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>First repayment in</p>
+                                <h1 style="padding-bottom: 25px;">19 days</h1>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="borrowing_item">
+                                <p>Loan duration</p>
+                                <h1>161 days</h1>
+                            </div>
+                            <!--/// End copy item-->
+                        </div>
+                        <!--/// End Borrowing itme area-->
+                        <!--Submit Btn with total-->
+                        <div class="total_btn">
+                            <button>6 repayments of £233.33</button>
+                        </div>
+                        <!--Submit btn-->
+                        <div class="submit_btn">
+                            <button>Apply Now</button>
+                        </div>
+                        <!--/// End Submit btn-->
+                        <!--/// End Submit Btn with total-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Borrow Select Section============-->
+        <!--===========Start Borrwo Details Section============-->
+        <section class="main_borrow_area">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <!--Warning-->
+                    <div class="warning">
+                        <p>Warning: Late repayment can cause you serious money problems. For help, go to <a href="www.moneyhelper.org.uk">www.moneyhelper.org.uk</a></p>
+                    </div>
+                    <!--///End Warning-->
+                    <!--Why borrow form squiddle-->
+                    <div class="borrow_details_item col-lg-5 col-12">
+                        <img src="assets/images/service-01.svg" alt="img">
+                        <h2>Why borrow from Squiddle</h2>
+                        <ul>
+                            <li><i class='bx bx-check'></i> Money in your account instantly</li>
+                            <li><i class='bx bx-check'></i> No early repayment fees</li>
+                            <li><i class='bx bx-check'></i> 5 minutes application / instant decision</li>
+                            <li><i class='bx bx-check'></i> No hidden costs or fees</li>
+                            <li><i class='bx bx-check'></i> Flexible repayments</li>
+                        </ul>
+                    </div>
+                    <!--/// End Why borrow form squiddle-->
+                    <!--Respersentative Exmple-->
+                    <div class="borrow_details_item col-lg-5 col-12" style="background: #fff;">
+                        <img src="assets/images/service-02.svg" alt="img">
+                        <h2 style="color: #6935D3;">Representative example</h2>
+                        <!--Respersentative details-->
+                        <!--copy item-->
+                        <div class="respersentative_item">
+                            <div class="res_name">
+                                <p>Borrow</p>
+                            </div>
+                            <div class="res_quantity">
+                                <p>£200 for 122 days</p>
+                            </div>
+                        </div>
+                        <!--/// End copy item-->
+                        <!--copy item-->
+                        <div class="respersentative_item">
+                            <div class="res_name">
+                                <p>Interest rate</p>
+                            </div>
+                            <div class="res_quantity">
+                                <p>211% p.a. (fixed)</p>
+                            </div>
+                        </div>
+                        <!--/// End copy item-->
+                        <!--copy item-->
+                        <div class="respersentative_item">
+                            <div class="res_name">
+                                <p>Total repayable</p>
+                            </div>
+                            <div class="res_quantity">
+                                <p>£286.82</p>
+                            </div>
+                        </div>
+                        <!--/// End copy item-->
+                        <!--copy item-->
+                        <div class="respersentative_item">
+                            <div class="res_name">
+                                <p>Four repayments</p>
+                            </div>
+                            <div class="res_quantity">
+                                <p>of £71.71 each</p>
+                            </div>
+                        </div>
+                        <!--/// End copy item-->
+                        <!--copy item-->
+                        <div class="respersentative_item">
+                            <div class="res_name">
+                                <p>Representative</p>
+                            </div>
+                            <div class="res_quantity">
+                                <p>504.7% APR</p>
+                            </div>
+                        </div>
+                        <!--/// End copy item-->
+                        <!--///End Respersentative details-->
+                    </div>
+                    <!--/// Respersentative Exmple-->
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Borrow Details Section============-->
+        <!--===========Start Testomonila Section============-->
+        <section class="testomonial_section pc_testomonila">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <div class="trustpilot_logo">
+                                    <img src="assets/images/trustpilot.svg" alt="logo">
+                                </div>
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Out of 5-->
+                                <div class="out_of_five">
+                                    <h1>Rated “Excellent” 4.3 out of 5</h1>
+                                </div>
+                                <!--/// End Out of 5-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Easy and convenient</h2>
+                                    <p>Seamless process, easy to navigate UI, and convenient for getting a small loan to pay bills that are coming soon before I get paid. Will definitely keep this handy just in case.</p>
+                                    <h2>Akeem-Jordan</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Everything went brilliant with this…</h2>
+                                    <p>Everything went brilliant with this company. Everything was straightforward and easy to figure out. 5/5 would recommend.</p>
+                                    <h2>Kaye</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <div class="trustpilot_logo">
+                                    <img src="assets/images/trustpilot.svg" alt="logo">
+                                </div>
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Out of 5-->
+                                <div class="out_of_five">
+                                    <h1>Rated “Excellent” 4.3 out of 5</h1>
+                                </div>
+                                <!--/// End Out of 5-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Easy and convenient</h2>
+                                    <p>Seamless process, easy to navigate UI, and convenient for getting a small loan to pay bills that are coming soon before I get paid. Will definitely keep this handy just in case.</p>
+                                    <h2>Akeem-Jordan</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--/// End Testomonila Item-->
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Everything went brilliant with this…</h2>
+                                    <p>Everything went brilliant with this company. Everything was straightforward and easy to figure out. 5/5 would recommend.</p>
+                                    <h2>Kaye</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Testomonila Section============-->
+        <!--===========Start Responsive Testomonila Section============-->
+        <section class="testomonial_section responsive_testomonila">
+            <div class="container">
+                <div class="swiper mySwiper swiper_two">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <div class="trustpilot_logo">
+                                    <img src="assets/images/trustpilot.svg" alt="logo">
+                                </div>
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Out of 5-->
+                                <div class="out_of_five">
+                                    <h1>Rated “Excellent” 4.3 out of 5</h1>
+                                </div>
+                                <!--/// End Out of 5-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Easy and convenient</h2>
+                                    <p>Seamless process, easy to navigate UI, and convenient for getting a small loan to pay bills that are coming soon before I get paid. Will definitely keep this handy just in case.</p>
+                                    <h2>Akeem-Jordan</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Everything went brilliant with this…</h2>
+                                    <p>Everything went brilliant with this company. Everything was straightforward and easy to figure out. 5/5 would recommend.</p>
+                                    <h2>Kaye</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <div class="trustpilot_logo">
+                                    <img src="assets/images/trustpilot.svg" alt="logo">
+                                </div>
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Out of 5-->
+                                <div class="out_of_five">
+                                    <h1>Rated “Excellent” 4.3 out of 5</h1>
+                                </div>
+                                <!--/// End Out of 5-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Easy and convenient</h2>
+                                    <p>Seamless process, easy to navigate UI, and convenient for getting a small loan to pay bills that are coming soon before I get paid. Will definitely keep this handy just in case.</p>
+                                    <h2>Akeem-Jordan</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                        <div class="swiper-slide">
+                            <!--/// End Testomonila Item-->
+                            <!--Testomonila Item-->
+                            <div class="testomonila_item">
+                                <!--Ratting-->
+                                <div class="ratting_area">
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                    <div class="ratting">
+                                        <img src="assets/images/star.svg" alt="star">
+                                    </div>
+                                </div>
+                                <!--/// End Ratting-->
+                                <!--Feedback-->
+                                <div class="feedback_area">
+                                    <h2>Everything went brilliant with this…</h2>
+                                    <p>Everything went brilliant with this company. Everything was straightforward and easy to figure out. 5/5 would recommend.</p>
+                                    <h2>Kaye</h2>
+                                </div>
+                                <!--/// End Feedback-->
+                            </div>
+                            <!--/// End Testomonila Item-->
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Responsive Testomonila Section============-->
+        <!--===========Start Service Section============-->
+        <section class="main_service_area">
+            <div class="container">
+                <div class="row">
+                    <!--service item-->
+                    <div class="service_item col-lg-4 col-12">
+                        <img src="assets/images/ser-01.svg" alt="img">
+                        <h2>Help through <br>short-term financial <br>difficulties</h2>
+                        <p>Squiddle loans are for short-term use only and should not be used for long-term borrowing nor should they be used to pay existing debt.</p>
+                    </div>
+                    <!--///End service item-->
+                    <!--service item-->
+                    <div class="service_item col-lg-4 col-12">
+                        <img src="assets/images/ser-02.svg" alt="img">
+                        <h2>No charges or<br>fees for early <br>repayment</h2>
+                        <p>Pay back any time as there are no charges. You may also save on interest as you will only pay back a maximum of 0.8% interest per day.</p>
+                    </div>
+                    <!--///End service item-->
+                    <!--service item-->
+                    <div class="service_item col-lg-4 col-12">
+                        <img src="assets/images/ser-03.svg" alt="img">
+                        <h2>Flexible lending<br>with optional loan<br>extension</h2>
+                        <p>Flexible loan extension of up to 12 months. Subject to status and affordability. Your loan interest will be recalculated.</p>
+                    </div>
+                    <!--///End service item-->
+                </div>
+            </div>
+        </section>
+        <!--===========/// End Service Section============-->
+        <!--===========Start FAQ Section============-->
+        <section class="main_faq_section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Faq Condition Section-->
+                    <div class="faq_condition col-lg-7 col-12">
+                        <div class="faq_condition_heading">
+                            <h1>Apply online today to borrow £100 to £1500</h1>
+                            <h3>Squiddle can help you borrow £100 to £1500, repaid over 4 to 6 months.</h3>
+                        </div>
+                        <div class="faq_condition_details">
+                            <p>Our entire application is 100% online with no upfront or hidden fees. We require a few quick details about yourself and how much you would like to borrow. You will receive an instant decision and subject to some further checks, we can provide funds to your bank account within 1 hour or the same day of applying. <br><br> We are proud to be an alternative lender in the UK and we are here to help people borrow money on more flexible terms and affordable rates. <br><br> As a <a href="#">direct lender</a>, we will keep your details safe and secure. Applying may impact your credit score. <br><br> We are confident that we provide a competitively priced product. You are able to check <a href="#">alternatives.</a></p>
+                        </div>
+                    </div>
+                    <div class="faq_img col-lg-5 col-12">
+                        <img src="assets/images/wallet.png" alt="img">
+                    </div>
+                    <!--///End Faq Condition Section-->
+                    <!--Main FAQ-->
+                    <div class="main_faq col-12">
+                        <div class="faq_heading">
+                            <h1>Is a loan right for you?</h1>
+                        </div>
+                        <!--FAQ-->
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Why should I borrow money from Squiddle?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Is it safe to borrow money online?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        How quickly can I borrow money?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Am I eligible?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                            <!--copy item-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        How do repayments work?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/// End copy item-->
+                        </div>
+                        <!--///End FAQ-->
+                    </div>
+                    <!--///End Main FAQ-->
+                </div>
+            </div>
+        </section>
+        <!--===========/// End FAQ Section============-->
+    </main>
+    <!--=================End Main Body Section==============-->
+    <!--=================Start Footer Section==============-->
+    <footer class="main_footer_area">
+        <div class="container">
+            <div class="row">
+                <!--copy footer item-->
+                <div class="footer_item footer_logo col-lg-3 col-12">
+                    <img src="assets/images/Footer-logo.svg" alt="logo">
+                    <!--Social Media-->
+                    <div class="social_media">
+                        <ul>
+                            <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-blogger'></i></a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Social Media-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3 col-12">
+                    <!--Footer Contact-->
+                    <div class="footer_contact">
+                        <img src="assets/images/phone.svg" alt="phone">
+                        <h1>0800 368 9553</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>Download our App</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--App store-->
+                    <div class="app_store">
+                        <a href="#"><img src="assets/images/apple-store.svg" alt=""></a>
+                        <a href="#"><img src="assets/images/google-play.svg" alt=""></a>
+                    </div>
+                    <!--/// End App store-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3 col-12">
+                    <!--Footer Contact-->
+                    <div class="footer_contact">
+                        <img src="assets/images/mail.svg" alt="phone">
+                        <h1>hello@squiddle.com</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>About us</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--Footer Link-->
+                    <div class="footer_link">
+                        <ul>
+                            <li><a href="#">About Squiddle</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Footer Link-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--copy footer item-->
+                <div class="footer_item col-lg-3 col-12">
+                    <!--Footer Contact-->
+                    <div class="footer_contact dis" style="visibility: hidden;">
+                        <img src="assets/images/mail.svg" alt="phone">
+                        <h1>hello@squiddle.com</h1>
+                    </div>
+                    <!--/// End Footer Contact-->
+                    <!--Footer Itme Heading-->
+                    <div class="footer_item_heading">
+                        <h2>Support</h2>
+                    </div>
+                    <!--///End Footer Itme Heading-->
+                    <!--Footer Link-->
+                    <div class="footer_link">
+                        <ul>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Cookies & Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Footer Link-->
+                </div>
+                <!--/// End copy footer item-->
+                <!--Footer Paragraph-->
+                <div class="footer_paragraph">
+                    <p>Squiddle is the registered trademarks and trading names for Fund Ourselves Ltd (Company Registration Number: 09550128) with registered office address at WeWork, 10 York Road, London, SE1 7ND, United Kingdom. Fund Ourselves Ltd is authorised by the Financial Conduct Authority to provide regulated products and services (FCA Registration Number: 729238). Fund Ourselves Ltd is not covered by the Financial Service Compensation Scheme (FSCS). Investment through Fund Ourselves involves unsecured short-term lending to other individuals, so your investment can go down as well as up. Capital at risk. Loans are subject to status and affordability. Loan rates will depend on your credit profile. UK residents only. Terms and conditions apply. Applicants must be 18 or over.</p>
+                </div>
+                <!--/// End Footer Paragraph-->
+                <!--copyright section-->
+                <div class="copyright">
+                    <p>© Squiddle 2022. All rights reserved.</p>
+                </div>
+                <!--///End copyright section-->
+            </div>
+        </div>
+    </footer>
+    <!--=================End Footer Section==============-->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+    <script>
+        var swiper = new Swiper(".swiper_two", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+    <!--Menu-->
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+
+    </script>
+    <!--Boxicon CND -->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.min.js"></script>
+    <script src="assets/js/controller.min.js"></script>
+</body>
+
+</html>
